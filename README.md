@@ -1,16 +1,59 @@
 # Computational Logic: Python
 
-> Solving problems from first principals. A collection of raw Python logic drills that avoid standard library shortcuts to focus on algorithmic foundations.
+> No shortcuts. No built-ins. Just raw logic.
 
-## Project Overview 
-This repository focuses on building foundational algorithms and data structures manually. The goal is to strengthen algortihmic thinking and control flow logic by stripping away python's built-in abstraction layers.
+A collection of Python drills built entirely from first principles —
+no standard library shortcuts, no magic methods, no abstractions.
+The goal is to understand how data moves and how control flow works
+at the most fundamental level before any library ever touches it.
 
-**The Core Constraints:**
+---
 
-- **No Magic Methods:** Functions like `.sort()` , `.reverse()` , `.max()` , or slicing shortcuts ( e.g., `[::-1]` ) are strictly forbidden 
+## Core Constraints
+- **No Magic Methods:** `.sort()`, `.reverse()`, `.max()`, slicing like `[::-1]` — all forbidden
+- **Manual Implementation:** Every solution uses only raw loops, conditionals, and variable manipulation
+- **First Principles:** If it can be abstracted away, it gets built by hand here first
 
+---
 
-- **Manual Implementation:** Every algorithm is built using raw loops, conditionals, and variable manipulation.
+## Structure
+```
+/arrays/
+/strings/
+/searching/
+/sorting/
+/math/
+/misc/
+```
 
+---
 
-- **First Principales:** The focus is on understanding *how* data moves and howmemory is accessed at a logical level. 
+## Current Scope
+Python foundations — core logic, algorithms, and data structure manipulation
+in pure Python only.
+
+---
+
+## Roadmap
+- [x] Python foundations — loops, conditionals, functions, recursion
+- [ ] Arrays — traversal, tracking, index logic
+- [ ] Sorting algorithms from scratch
+- [ ] Searching algorithms from scratch
+- [ ] String manipulation without built-ins
+- [ ] Math primitives (GCD, prime sieve, power functions)
+- [ ] *(Summer 2026)* NumPy internals mimicked in pure Python
+- [ ] *(Summer 2026)* Pandas internals mimicked in pure Python
+
+---
+
+## Status Log
+
+| Date | Event |
+|------|-------|
+| Sem 2 2026 | Python foundations phase active |
+| Mar 22, 2026 | README updated, roadmap added |
+
+---
+
+*B.Tech AI student — building what libraries do, by hand,*
+*before trusting libraries to do it for me.*
